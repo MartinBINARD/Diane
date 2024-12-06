@@ -597,12 +597,16 @@ html {
   margin-right: auto;
 }
 
-.mb-36 {
-  margin-bottom: 9rem;
-}
-
 .mb-28 {
   margin-bottom: 7rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mb-36 {
+  margin-bottom: 9rem;
 }
 
 .mb-4 {
@@ -621,12 +625,20 @@ html {
   display: flex;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .h-96 {
   height: 24rem;
 }
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-auto {
@@ -653,6 +665,10 @@ html {
   align-content: flex-end;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-end {
   align-items: flex-end;
 }
@@ -661,12 +677,20 @@ html {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-x-4 {
@@ -679,12 +703,16 @@ html {
        column-gap: 1.5rem;
 }
 
+.gap-y-2 {
+  row-gap: 0.5rem;
+}
+
 .gap-y-3 {
   row-gap: 0.75rem;
 }
 
-.gap-y-2 {
-  row-gap: 0.5rem;
+.gap-y-8 {
+  row-gap: 2rem;
 }
 
 .rounded-3xl {
@@ -733,24 +761,54 @@ html {
   background-image: url('./assets/images/product-6.jpg');
 }
 
-.bg-cover {
-  background-size: cover;
+.bg-\[url\(\'\.\/assets\/images\/wedding\.png\'\)\] {
+  background-image: url('./assets/images/wedding.png');
 }
 
-.bg-center {
-  background-position: center;
+.bg-\[url\(\'\.\/assets\/images\/kids\.jpg\'\)\] {
+  background-image: url('./assets/images/kids.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/images\/man\.jpg\'\)\] {
+  background-image: url('./assets/images/man.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/images\/woman\.jpg\'\)\] {
+  background-image: url('./assets/images/woman.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-bottom {
   background-position: bottom;
 }
 
+.bg-center {
+  background-position: center;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-6 {
   padding: 1.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-2 {
@@ -761,11 +819,6 @@ html {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .text-left {
@@ -781,14 +834,14 @@ html {
   line-height: 2.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-sm {
@@ -796,8 +849,8 @@ html {
   line-height: 1.25rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -809,11 +862,6 @@ html {
   font-weight: 500;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
@@ -822,4 +870,9 @@ html {
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
